@@ -14,7 +14,7 @@ import project.hwanvis.hawnvisserver.service.PromptService;
 public class ClaudePromptService implements PromptService {
     private final ClaudeFeignClient claudeFeignClient;
     private final ClaudeProperties claudeProperties;
-    ;
+
 
     public ClaudePromptService(
             ClaudeFeignClient claudeFeignClient, ClaudeProperties claudeProperties
