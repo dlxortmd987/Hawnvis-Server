@@ -3,7 +3,7 @@ package project.hwanvis.hawnvisserver.domain;
 public enum Vendor {
     GPT("gpt"),
     CLAUDE("claude"),
-    UNKNOWN("unknown");
+    UNKNOWN("unknown"),
     ;
     private final String name;
 
