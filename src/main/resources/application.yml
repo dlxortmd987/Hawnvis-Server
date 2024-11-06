@@ -1,0 +1,11 @@
+feign:
+  openai:
+    name: openai
+    url: https://api.openai.com
+    model: gpt-4o
+  claude:
+    name: claude
+    url: https://api.anthropic.com
+    model: claude-3-5-sonnet-20241022
+    api-version: 2023-06-01
+    max-tokens: 1024
